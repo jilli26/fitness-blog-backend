@@ -2,10 +2,11 @@ class CreateStudios < ActiveRecord::Migration[5.1]
   def change
     create_table :studios do |t|
       t.string :name
-      t.integer :price
+      t.string :price
       t.string :address
       t.string :website
       t.string :phone
+      t.string :email
       t.string :twitter
       t.string :instagram
       t.string :facebook
