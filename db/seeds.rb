@@ -6,8 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Neighbordhoods
-
+# Neighborhoods
 battery_park_city = Neighborhood.create(name: 'Battery Park City', lat: 40.711579, lng: -74.015844)
 central_park = Neighborhood.create(name: 'Central Park', lat: 40.782865, lng: -73.965355)
 chelsea = Neighborhood.create(name: 'Chelsea', lat: 40.746500, lng: -74.001374)
@@ -34,3 +33,16 @@ ues = Neighborhood.create(name: 'Upper East Side', lat: 40.773565, lng: -73.9565
 uws = Neighborhood.create(name: 'Upper West Side', lat: 40.787011, lng: -73.975368)
 west_village = Neighborhood.create(name: 'West Village', lat: 40.735781, lng: -74.003571)
 williamsburg = Neighborhood.create(name: 'Williamsburg', lat: 40.708116, lng: -73.957070)
+
+# Categories
+yoga = Category.create(name: 'Yoga')
+cycling = Category.create(name: 'Cycling')
+barre = Category.create(name: 'Barre')
+pilates = Category.create(name: 'Pilates')
+strength_training = Category.create(name: 'Strength Training')
+dance = Category.create(name: 'Dance')
+boxing = Category.create(name: 'Boxing')
+rowing = Category.create(name: 'Rowing')
+outdoors = Category.create(name: 'Outdoors')
+running = Category.create(name: 'Running')
+wellness = Category.create(name: 'Wellness')
