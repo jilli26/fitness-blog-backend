@@ -46,3 +46,7 @@ rowing = Category.create(name: 'Rowing')
 outdoors = Category.create(name: 'Outdoors')
 running = Category.create(name: 'Running')
 wellness = Category.create(name: 'Wellness')
+
+# Studios
+fr_penthouse = (name: 'Fhitting Room 67th St Penthouse', price: '$$$', address: '201 E 67th St, 5th Floor, New York, NY 10065', website: 'https://booking.fhittingroom.com/reserve/index.cfm?action=Reserve.chooseClass&site=3', phone: '(646) 869-1840', twitter: 'https://twitter.com/FhittingRoom', instagram: 'https://instagram.com/FhittingRoom/', facebook: 'https://www.facebook.com/FhittingRoom', image_url: 'https://i.imgur.com/md1OXuu.jpg', email: 'info@fhittingroom.com')
+flex_noho = (name: 'Flex Studio NoHo', price: '$$$', address: '650 Broadway, 3rd Floor, New York, NY 10012', website: 'https://flexstudios.com/', phone: '(212) 432-3539', twitter: 'https://twitter.com/flexstudiosnyc', facebook: 'https://www.facebook.com/flexstudiosnyc', instagram: 'https://www.instagram.com/flexstudiosnyc/', image_url: 'https://i.imgur.com/RnLlhVt.jpg', email: 'flexnoho@flexstudios.com')
