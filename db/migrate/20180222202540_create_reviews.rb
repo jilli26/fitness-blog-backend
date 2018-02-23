@@ -1,6 +1,7 @@
 class CreateReviews < ActiveRecord::Migration[5.1]
   def change
     create_table :reviews do |t|
+      t.integer :studio_id
       t.integer :rating
       t.text :intensity
       t.text :cardio
@@ -10,7 +11,7 @@ class CreateReviews < ActiveRecord::Migration[5.1]
       t.text :space
       t.text :format
       t.text :amenities
-      t.text :music 
+      t.text :music
 
       t.timestamps
     end

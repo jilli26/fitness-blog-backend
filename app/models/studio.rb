@@ -1,5 +1,5 @@
 class Studio < ApplicationRecord
   belongs_to :neighborhood
-  has_one :review
+  has_many :review
   belongs_to :category
 end
